@@ -21,20 +21,52 @@
     background-color: #f7f5e9;
     color: #424242;
     }
+
+    .chadlogo {
+        position: relative;
+        display: inline-block;
+    }
+    .chadlogo .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 2%;
+        z-index: 99;
+    }
+    .chadlogo:hover .img-top {
+        display: inline;
+    }
 </style>
 
 </head>
 <body>
     <div class="container-fluid">
     <header>
-
-    </header>
-    <div class="row text-center align-items-center d-flex justify-content-center" style="height:150px;">
-        <img src="images/Chad logo long gray.png" style="width: 40%;" class="img-fluid" alt="Chad logo long gray">
+    <div id="logo" class="row text-center align-items-center d-flex justify-content-center" style=" height:120px;">
+        <div class="chadlogo" style="width: 40%;">
+            <img src="images/Chad logo long gray.png" style="width: 100%;" class="img-fluid" alt="Chad logo long gray">
+            <img src="images/Chad logo long red.png" style="width: 96%;" class="img-fluid img-top" alt="Chad logo long red">
+        </div>
       </div>
-      <hr>
-    <h1>Chad Meehan Personal Portfolio</h1>
+      <!--Nav code from bootstrap--> 
+      <nav class="container" style="height:10pt; width:50%;">
+      <ul class="nav justify-content-center nav-fill">
+        <li class="nav-item">
+          <a class="nav-link link-secondary" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-secondary" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-secondary" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-secondary" href="#">Contact</a>
+        </li>
+      </ul>
+      </nav>
     <hr>
+    </header>
         <footer>
             
         </footer>
