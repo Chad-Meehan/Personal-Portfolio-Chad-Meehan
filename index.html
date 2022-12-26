@@ -10,9 +10,11 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<style>
-    body {
+<!--<style>
+  
+   body {
     background-image: none;
     background-position: top left;
     background-size: auto;
@@ -21,7 +23,8 @@
     background-color: #f7f5e9;
     color: #424242;
     }
-
+  -->
+  <style>
     .chadlogo {
         position: relative;
         display: inline-block;
@@ -36,15 +39,16 @@
     .chadlogo:hover .img-top {
         display: inline;
     }
+
 </style>
 
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" style="background-color: #f7f5e9;">
     <header>
     <div id="logo" class="row text-center align-items-center d-flex justify-content-center" style=" height:120px;">
         <div class="chadlogo" style="width: 40%;">
-            <img src="images/Chad logo long gray.png" style="width: 100%;" class="img-fluid" alt="Chad logo long gray">
+            <img src="images/Chad logo long gray.png" style="width: 100%;" class="img-fluid img-bottom" alt="Chad logo long gray">
             <img src="images/Chad logo long red.png" style="width: 96%;" class="img-fluid img-top" alt="Chad logo long red">
         </div>
       </div>
@@ -52,24 +56,37 @@
       <nav class="container" style="height:10pt; width:50%;">
       <ul class="nav justify-content-center nav-fill">
         <li class="nav-item">
-          <a class="nav-link link-secondary" aria-current="page" href="#">Home</a>
+          <a class="nav-link link-secondary" aria-current="page" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link link-secondary" href="#">About</a>
+          <a class="nav-link link-secondary" href="#">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link link-secondary" href="#">Link</a>
+          <a class="nav-link link-secondary" href="#">LINK</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link link-secondary" href="#">Contact</a>
+          <a class="nav-link link-secondary" href="#">CONTACT</a>
         </li>
       </ul>
       </nav>
-    <hr>
+      <hr>
     </header>
-        <footer>
-            
-        </footer>
+    <div class="w3-row">
+      <div class="w3-container w3-half">
+        <div class="text-center">
+      <h2>This is the page content</h2>
+      <p>This is a whole bunch of info about Chad Meehan</p>
+      </div>
+      </div>
+        <div class="w3-container w3-half text-center">
+      <img src="images/chad neutral background.png" alt="chad neutral background.png" width="75%">
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid row" style="width: auto;">
+      <footer style="background-color: #424242; color:white; height: 400px;">
+        <h2>This is the footer</h2>
+      </footer>
     </div> 
 </body>
 </html>
