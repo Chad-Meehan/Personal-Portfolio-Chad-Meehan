@@ -149,3 +149,8 @@ nav{
 .animate .line3{
         transform: rotate(45deg) translate(-5px,-6px);
 }
+
+.chadphoto1 img{
+    width: 75%;
+    border-radius: 5px;
+}
