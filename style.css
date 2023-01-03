@@ -30,12 +30,12 @@ nav{
     transition: all 0.5s;
 }
 
-.logo p{
+.logo span{
     font-size: 20px; 
     font-weight: 400;
 }
 
-.logo span{
+.logo p{
     font-size: 30px; 
     font-weight: 100;
 }
@@ -106,7 +106,7 @@ nav{
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 68vh;
         top: 16vh;
         background-color: #f7f5e9;
         display: flex;
