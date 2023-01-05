@@ -150,13 +150,54 @@ nav{
         transform: rotate(45deg) translate(-5px,-6px);
 }
 
+.wrapper {
+    display: flex;
+    flex-flow: row wrap; 
+    text-align: center;
+    margin: 5px; 
+    justify-content: space-around; 
+    font-family: 'poppins', sans-serif;
+}
+
+.wrapper > * {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+}
+
+.info1 {
+    height: 600px;
+    background-color: #a4a2a2;
+}
+
 .chadphoto1 img{
     width: 75%;
     border-radius: 5px;
 }
 
+@media all and (min-width: 800px){
+    .info1{
+        flex: 1;
+    }
+
+    .chadphoto1{
+        order: 2;
+    }
+
+    .info1{
+        order: 1;
+    }
+}
+
+@media all and (min-width: 600px){
+    .chadphoto1{
+        flex: 1;
+    }
+}
+
 footer .foot1{
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     width: 100%; 
     height: 400px;
@@ -186,14 +227,22 @@ footer .foot1{
     color: white;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
+    transition: all 0.3s;
 }
 .socials a:hover{
     color: #a4a2a2;
 }
 
+@media all and (max-width: 800px){
+    .social-word {
+        display: none;
+    }
+}
+
 .fa-brands {
     font-size: 40px;
     color: white;
+    transition: all 0.3s;
 }
 
 .fa-brands:hover{
@@ -213,8 +262,10 @@ footer .foot1{
     color: white;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
+    transition: all 0.3s;
 }
 
 .page-links a:hover{
     color: #a4a2a2;
 }
+
