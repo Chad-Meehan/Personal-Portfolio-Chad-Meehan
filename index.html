@@ -28,8 +28,8 @@
 </head>
 <body>
     <header>
-      <nav>
-        <div class="logo"><a href="#">
+      <nav class="nav-box">
+        <div class="logo"><a href="home">
             <p>Chad<span>Meehan</span></p>
         </a></div>
         <ul class="nav-links">
@@ -46,9 +46,15 @@
     </nav>
     <script src="app.js"></script>
     </header>
+      <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+        })
+      </script>
     <div class="wrapper">
-      <div class="info1">
-        <div class="">
+      <div class="wrap-child1">
+        <div class="info1">
       <h2>This is the page content</h2>
       <p>This is a whole bunch of info about Chad Meehan</p>
       </div>
