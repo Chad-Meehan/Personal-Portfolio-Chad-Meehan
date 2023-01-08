@@ -56,7 +56,7 @@ header.sticky .nav-links {
 }
 
 .logo a:hover{
-    color: #777777;
+    color: #831212;
 }
 
 .nav-links{
@@ -82,7 +82,7 @@ header.sticky .nav-links {
 }
 
 .nav-links a:hover{
-    color: #504e4e;
+    color: #831212;
 }
 
 .nav-links li:after{
@@ -169,23 +169,35 @@ header.sticky .nav-links {
 .wrapper {
     display: flex;
     flex-flow: row wrap; 
+    align-items: center;
     text-align: center;
     margin: 5px; 
     justify-content: space-around; 
-    font-family: 'poppins', sans-serif;
+    font-family: 'raleway', sans-serif;
 }
 
 .wrapper > * {
     padding: 10px;
-    padding-top: 16vh;
+    padding-top:;
     margin: 10px;
     flex: 1 100%;
 }
 
+.tagline1 {
+    color: #831212;
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    padding-top: 20vh;
+}
+
 .info1 {
-    height: 600px;
+    height: auto;
     padding-top: 10vh;
-    background-color: #a4a2a2;
+    padding-bottom: 10vh;
+    font-size: 30pt;
+    color: #504e4e;
+    background-color: #e2dbc6;
+    border-radius: 5px;
 }
 
 .chadphoto1 img{
@@ -211,6 +223,92 @@ header.sticky .nav-links {
     .chadphoto1{
         flex: 1;
     }
+}
+
+.quote1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+    background-color: #e9ebf7;
+    color: #831212;
+    font-family: 'great Vibes', cursive;
+    font-size: 48px;
+}
+
+cite {
+    font-family: 'raleway';
+    color: #504e4e;
+    font-size: 20px;
+}
+
+.learning1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    font-family: 'raleway', sans-serif;
+    color: #504e4e;
+    margin: 10px;
+}
+
+.learning1 > * {
+    padding: 10px;
+    padding-top:;
+    margin: 10px;
+    flex: 1 100%;
+}
+
+.learning2 {
+    font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 10px;
+}
+
+.learning3 {
+    font-size: 20pt;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+@media all and (min-width: 800px){
+    .learn-child{
+        flex: 1;
+    }
+
+    .learning3{
+        order: 2;
+    }
+
+    .learn-child{
+        order: 1;
+    }
+}
+
+@media all and (min-width: 600px){
+    .learning3{
+        flex: 1;
+    }
+}
+
+.workstation1 {
+    padding: 20px;
+    margin: 10px;
+}
+
+.work-pic img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-radius: 5px;
 }
 
 footer .foot1{
