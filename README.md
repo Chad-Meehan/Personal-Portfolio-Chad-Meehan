@@ -24,3 +24,31 @@ This is the first site creation to be submitted as part of the Front End Introdu
 ## Finish
 
 Send the completed repository and Github Pages site URL to your Learning People mentor
+
+
+# Code Atributes 
+
+This is an update at the time of the front page basically being finished and ready to be merged with the main.
+
+There are a few different pieces of code that I found and used though I was not able to directly copy them and insert as it required changing to make it work for my site.
+
+### Mobile Responsive Nav
+
+I used code from a youtube tutorial to fine tune my nav and give me a few cool effects
+
+Responsive Navigation Bar Tutorial | HTML CSS JAVASCRIPT
+developedbyed
+
+### Mobile Responsive Flex Elements
+
+I used mostly insperation from this youtube tutorial, it didn't fit very well with what i was trying to do but gave me a better understanding of the way to make the elements more responsive.
+
+Responsive Flexbox Layout Page in 4 Minutes | Flexbox Tutorial
+CSS CODER
+
+### Scroll Animations
+
+I used another youtube tutorial to help me animate the different elements on scroll. I basically used the js code direct and used what I learned to input the css code I needed to run it.
+
+Subtle, yet Beautiful Scroll Animations
+Beyond Fireship
