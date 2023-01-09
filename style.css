@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* Header navagation */
 header{
     width: 100%;
     top: 0;
@@ -106,6 +107,8 @@ header.sticky .nav-links {
     cursor: pointer;
 }
 
+/* mobile responsive nav */
+
 .burger div{
     width: 25px;
     height: 3px;
@@ -165,6 +168,8 @@ header.sticky .nav-links {
 .animate .line3{
         transform: rotate(45deg) translate(-5px,-6px);
 }
+
+/* body and content */
 
 .wrapper {
     display: flex;
@@ -311,6 +316,8 @@ cite {
     border-radius: 5px;
 }
 
+/* Footer */
+
 footer .foot1{
     display: flex;
     flex-flow: row wrap;
@@ -384,6 +391,8 @@ footer .foot1{
 .page-links a:hover{
     color: #a4a2a2;
 }
+
+/* Element animation */
 
 .hidden {
     opacity: 0;

@@ -1,3 +1,4 @@
+// navagation code for burger
 const navSlide = () => {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
@@ -24,6 +25,7 @@ const navSlide = () => {
 
 navSlide();
 
+// code for intersection observer
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
