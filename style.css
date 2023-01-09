@@ -385,3 +385,54 @@ footer .foot1{
     color: #a4a2a2;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateY(100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.tagline1.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.tagline1.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.wrap-child1.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1.5s;
+    transform: translateX(-100%);
+}
+
+.wrap-child1.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.chadphoto1.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1.5s;
+    transform: translateX(100%);
+}
+
+.chadphoto1.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
