@@ -445,3 +445,104 @@ footer .foot1{
     filter: blur(0);
     transform: translateX(0);
 }
+
+/* Contact form */
+
+.formdiv1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    margin: 5px; 
+    justify-content: center; 
+    font-family: 'raleway', sans-serif;
+}
+
+.formdiv1 > * {
+    padding: 10px;
+    padding-top:;
+    margin: 10px;
+    letter-spacing: 2px;
+    flex: 1 100%;
+}
+
+.connect {
+    display: flex;
+    flex-flow: column;
+    text-align: start;
+    height: auto;
+    max-width: 400px;
+    font-size: 18pt;
+    color: #504e4e;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+}
+
+form input, form textarea {
+    font-family: 'raleway', sans-serif;
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: solid 1px #e2dbc6;
+    background: #fefcf9;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+form select {
+    font-family: 'raleway', sans-serif;
+    width: auto;
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: solid 1px #e2dbc6;
+    background: #fefcf9;
+    font-size: 16px;
+    border-radius: 5px; 
+}
+
+form button {
+    padding: 15px;
+    background: #fefcf9;
+    color: #504e4e;
+    font-size: 18px;
+    border: 0;
+    outline: solid 1px #e2dbc6;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #e2dbc6;
+    color: #fefcf9;
+    outline: solid 1px #504e4e;
+}
+
+@media all and (min-width: 800px){
+    .formdiv1{
+        flex: 1;
+    }
+
+    form{
+        order: 2;
+    }
+
+    .formdiv1{
+        order: 1;
+    }
+}
+
+@media all and (min-width: 600px){
+    .form{
+        flex: 1;
+    }
+}
