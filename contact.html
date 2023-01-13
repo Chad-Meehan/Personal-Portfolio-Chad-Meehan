@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/5b29e7e330.js" crossorigin="anonymous"></script>
-
+    
 
   <style>
    body {
@@ -62,22 +62,62 @@
             <br>
             <p>Please use the form on this page to send a direct email to me. I will do my best to respond in a timely manner.</p>
         </div>
-        <form>
-            <input type="text" id="name" placeholder="Name" required>
-            <input type="email" id="email" placeholder="Email Address" required>
-            <input type="text" id="phone" placeholder="Phone No." required>
+        <form id="myForm">
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email Address" required>
+            <input type="text" name="phone" id="phone" placeholder="Phone No." required>
             <select name="interests" id="interests" required>
                 <option value="Please select">Please select</option>
                 <option value="I need a website">I need a website</option>
-                <option value="I need an employee">I want to give you a job</option>
+                <option value="I want to give you a job">I want to give you a job</option>
                 <option value="I need advice">I need advice</option>
-                <option value="I need a date">I think you're cute, let's go on a date!</option>
+                <option value="I think you're cute, let's go on a date!">I think you're cute, let's go on a date!</option>
             </select>
-            <textarea id="message" rows="4" placeholder="Your message here..."></textarea>
+            <textarea name="message" id="message" rows="4" placeholder="Your message here..."></textarea>
             <button type="submit">Submit</button>
        </form>
     </div>
     </div>
+
+    
+    <!--This is the emailjs sendForm function-->
+    <script 
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<!--<script src="contact.js"></script>-->
+  <script type="text/javascript">
+(function(){
+  emailjs.init("6_0yn08lE9r5XMrfY");
+})();
+</script>
+
+<script>
+  // listen to the form submission
+  document
+    .getElementById("myForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const serviceID = "service_vatoc8u";
+      const templateID = "template_usd2qbe";
+
+      // send the email here
+      emailjs.sendForm(serviceID, templateID, this).then(
+        (response) => {
+          
+          console.log("SUCCESS!", response.status, response.text);
+          window.location.assign("thankyou.html");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          alert("FAILED...", error);
+        }
+      );
+    });
+</script>
+<!--End of form email script-->
+
      
     <div class="quote1 hidden">
         <div>
