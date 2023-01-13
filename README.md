@@ -52,3 +52,9 @@ I used another youtube tutorial to help me animate the different elements on scr
 
 Subtle, yet Beautiful Scroll Animations
 Beyond Fireship
+
+### Setting Up JS For emailjs
+
+To get my js code running properly to use the emailjs with my contact page I found some code written by  NJOKU SAMSON EBERE, a software engineer from Enugu, Nigeria.
+
+https://dev.to/ebereplenty/contact-form-with-emailjs-plain-javascript-365l
