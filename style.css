@@ -174,7 +174,6 @@ header.sticky .nav-links {
 .wrapper {
     display: flex;
     flex-flow: row wrap; 
-    align-items: center;
     text-align: center;
     margin: 5px; 
     justify-content: space-around; 
@@ -233,7 +232,7 @@ header.sticky .nav-links {
     justify-content: center;
     position: relative;
     max-width: 100%;
-    padding: 0 2rem;
+    padding: 0 1rem;
     border-radius: 5px;
 }
 
@@ -287,7 +286,8 @@ header.sticky .nav-links {
     .chadphoto1{
         flex: 1;
     }
-}
+    }
+
 
 
 /* about page */
@@ -302,6 +302,10 @@ header.sticky .nav-links {
     }
 
 .info2 {
+    font-size: 20pt;
+}
+
+.info1{
     font-size: 20pt;
 }
 }
@@ -320,6 +324,10 @@ header.sticky .nav-links {
     }
 
     .about-opening {
+        font-size: 15pt;
+    }
+
+    .info1{
         font-size: 15pt;
     }
 }
@@ -428,6 +436,90 @@ cite {
     max-width: 30rem;
 }
 
+.creation1 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding: 5vh;
+    font-family: 'raleway', sans-serif;
+    font-size: 30pt;
+    color: #504e4e;
+    text-align: center;
+}
+
+.creation-photos {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 2rem;
+    margin: auto;
+}
+
+.creation-photos img {
+    max-width: 20rem;
+    border-radius: 5px;
+}
+
+@media all and (max-width: 1050px){
+    .creation-photos img {
+        width: 15rem;
+    }
+}
+
+
+@media all and (max-width: 820px){
+    
+    .creation-photos img {
+        width: 10rem;
+    }
+}
+
+@media all and (max-width: 570px){
+    
+    .creation-photos img {
+        width: 18rem;
+    }
+
+    .creation-photos {
+        padding-left: 25vw;
+    }
+
+    .creation1 {
+        font-size: 20pt;
+    }
+}
+
+.table1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 2rem;
+    font-family: 'raleway', sans-serif;
+    font-size: 15pt;
+    color: #504e4e;
+    text-align: center; 
+}
+
+.table-header {
+    font-size: 30pt;
+    font-family: 'raleway', sans-serif;
+    color: #504e4e;
+    text-align: center;
+}
+
+table {
+    background-color: #e9ebf7;
+    border-color: #831212;
+    border-radius: 5px;
+}
+
+.table1 img {
+    width: 100%;
+    border-radius: 5px;
+}
 
 
 /* Footer */
@@ -559,6 +651,46 @@ footer .foot1{
     filter: blur(0);
     transform: translateX(0);
 }
+
+.buns.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.buns.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.pies.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(100%);
+}
+
+.pies.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.table1.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(100%);
+}
+
+.table1.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
 
 /* Contact form */
 
