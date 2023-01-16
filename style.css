@@ -205,10 +205,69 @@ header.sticky .nav-links {
     border-radius: 5px;
 }
 
+.info2 {
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding: 10vh;
+    font-size: 30pt;
+    color: #504e4e;
+    text-align: start;
+    background-color: #e2dbc6;
+    border-radius: 5px;
+}
+
+.about-opening {
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px"
+}
+
 .chadphoto1 img{
     width: 75%;
     border-radius: 5px;
 }
+
+.about-photo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    padding: 0 2rem;
+    border-radius: 5px;
+}
+
+.chadphoto2 img{
+    display: inline-block;
+    padding: 20px;
+    object-fit: contain;
+    max-width: 30rem;
+    border-radius: 25px;
+}
+.chadphoto2 {
+    max-width: 30rem;
+}
+
+.chadphoto3 img{
+    display: inline-block;
+    padding: 20px;
+    object-fit: contain;
+    max-width: 30rem;
+    border-radius: 25px;
+}
+.chadphoto3{
+    max-width: 30rem;
+}
+
+.wrap-child2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+/* index page */
 
 @media all and (min-width: 800px){
     .wrap-child1{
@@ -229,6 +288,43 @@ header.sticky .nav-links {
         flex: 1;
     }
 }
+
+
+/* about page */
+
+@media all and (max-width: 1000px){
+    .chadphoto2 img{
+        max-width: 20rem;
+    }
+
+    .chadphoto3 img{
+        max-width: 20rem;
+    }
+
+.info2 {
+    font-size: 20pt;
+}
+}
+
+@media all and (max-width: 650px){
+    .chadphoto2 img{
+        max-width: 15rem;
+    }
+
+    .chadphoto3 img{
+        max-width: 15rem;
+    }
+
+    .info2 {
+        font-size: 15pt;
+    }
+
+    .about-opening {
+        font-size: 15pt;
+    }
+}
+/* end of about page */
+
 
 .quote1 {
     display: flex;
