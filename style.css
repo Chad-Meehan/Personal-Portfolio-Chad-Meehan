@@ -301,13 +301,13 @@ header.sticky .nav-links {
         max-width: 20rem;
     }
 
-.info2 {
-    font-size: 20pt;
-}
+    .info2 {
+        font-size: 20pt;
+    }
 
-.info1{
-    font-size: 20pt;
-}
+    .info1{
+        font-size: 20pt;
+    }
 }
 
 @media all and (max-width: 650px){
@@ -489,7 +489,13 @@ cite {
     .creation1 {
         font-size: 20pt;
     }
+
+    .table1 tr td{
+        font-size: 12pt;
+    }
 }
+
+
 
 .table1 {
     display: flex;
