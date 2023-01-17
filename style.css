@@ -209,11 +209,19 @@ header.sticky .nav-links {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding: 10vh;
+    font-family: 'raleway', sans-serif;
     font-size: 30pt;
     color: #504e4e;
     text-align: start;
     background-color: #e2dbc6;
     border-radius: 5px;
+}
+
+.info-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
 }
 
 .about-opening {
