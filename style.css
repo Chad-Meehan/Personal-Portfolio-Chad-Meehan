@@ -535,6 +535,63 @@ table {
     border-radius: 5px;
 }
 
+.projects {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #831212;
+}
+
+.rustic {
+    padding: 10px;
+    margin: 10px;
+}
+
+.kidd-site {
+    padding: 10px;
+    margin: 10px;
+}
+
+.acd {
+    padding: 10px;
+    margin: 10px;
+}
+
+.echo {
+    padding: 10px;
+    margin: 10px;
+}
+
+.rustic img {
+    max-width:100%;
+    display: block;
+    align-self: center;
+    object-fit: contain;
+}
+
+.kidd-site img {
+    max-width:100%;
+    display: block;
+    align-self: center;
+    object-fit: contain;
+}
+
+.acd img {
+    max-width:100%;
+    display: block;
+    align-self: center;
+    object-fit: contain;
+}
+
+.echo img {
+    max-width:100%;
+    display: block;
+    align-self: center;
+    object-fit: contain;
+}
+
 
 /* Footer */
 
