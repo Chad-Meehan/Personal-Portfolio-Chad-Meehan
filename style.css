@@ -171,13 +171,25 @@ header.sticky .nav-links {
 
 /* body and content */
 
+.wrapper1 {
+    display: flex;
+    flex-flow: row wrap; 
+    text-align: center;
+    margin: 20px; 
+    justify-content: space-around; 
+    font-family: 'raleway', sans-serif;
+    border-radius: 5px;
+   background-color: #e2dbc6;
+}
+
 .wrapper {
     display: flex;
     flex-flow: row wrap; 
     text-align: center;
-    margin: 5px; 
+    margin: 20px; 
     justify-content: space-around; 
     font-family: 'raleway', sans-serif;
+    
 }
 
 .wrapper > * {
@@ -192,12 +204,14 @@ header.sticky .nav-links {
     font-family: 'Great Vibes', cursive;
     font-size: 48px;
     padding-top: 20vh;
+    text-align: center;
 }
 
 .info1 {
     height: auto;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-left: 5px;
     font-size: 30pt;
     color: #504e4e;
     background-color: #e2dbc6;
@@ -232,6 +246,8 @@ header.sticky .nav-links {
 
 .chadphoto1 img{
     width: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
@@ -269,8 +285,8 @@ header.sticky .nav-links {
 .wrap-child2 {
     display: flex;
     justify-content: center;
-    margin: 10px;
-    padding: 2rem;
+    margin: 5px;
+    padding: rem;
     border-radius: 5px;
 }
 
@@ -491,7 +507,9 @@ cite {
     }
 
     .creation-photos {
-        padding-left: 25vw;
+        padding-left: 23vw;
+        flex-direction: column;
+        align-items: center;
     }
 
     .creation1 {
@@ -552,17 +570,12 @@ table {
 
 .projects {
     display: flex;
-    /* flex-flow: row wrap; */
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
     padding: 2rem;
     padding-bottom: 10vh;
 }
-
-/* .projects > * {
-    flex: 1 100%;
-} */
 
 .rustic {
     padding: 10px;
@@ -794,6 +807,19 @@ footer .foot1{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+.wrap-child2.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1.5s;
+    transform: translateY(-100%);
+}
+
+.wrap-child2.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
 }
 
 .chadphoto1.hidden {
