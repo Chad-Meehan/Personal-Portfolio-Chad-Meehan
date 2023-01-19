@@ -174,7 +174,6 @@ header.sticky .nav-links {
 .wrapper {
     display: flex;
     flex-flow: row wrap; 
-    align-items: center;
     text-align: center;
     margin: 5px; 
     justify-content: space-around; 
@@ -205,10 +204,77 @@ header.sticky .nav-links {
     border-radius: 5px;
 }
 
+.info2 {
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding: 10vh;
+    font-family: 'raleway', sans-serif;
+    font-size: 30pt;
+    color: #504e4e;
+    text-align: start;
+    background-color: #e2dbc6;
+    border-radius: 5px;
+}
+
+.info-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.about-opening {
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px"
+}
+
 .chadphoto1 img{
     width: 75%;
     border-radius: 5px;
 }
+
+.about-photo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+
+.chadphoto2 img{
+    display: inline-block;
+    padding: 20px;
+    object-fit: contain;
+    max-width: 30rem;
+    border-radius: 25px;
+}
+.chadphoto2 {
+    max-width: 30rem;
+}
+
+.chadphoto3 img{
+    display: inline-block;
+    padding: 20px;
+    object-fit: contain;
+    max-width: 30rem;
+    border-radius: 25px;
+}
+.chadphoto3{
+    max-width: 30rem;
+}
+
+.wrap-child2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+/* index page */
 
 @media all and (min-width: 800px){
     .wrap-child1{
@@ -228,7 +294,53 @@ header.sticky .nav-links {
     .chadphoto1{
         flex: 1;
     }
+    }
+
+
+
+/* about page */
+
+@media all and (max-width: 1000px){
+    .chadphoto2 img{
+        max-width: 20rem;
+    }
+
+    .chadphoto3 img{
+        max-width: 20rem;
+    }
+
+    .info2 {
+        font-size: 20pt;
+    }
+
+    .info1{
+        font-size: 20pt;
+    }
 }
+
+@media all and (max-width: 650px){
+    .chadphoto2 img{
+        max-width: 15rem;
+    }
+
+    .chadphoto3 img{
+        max-width: 15rem;
+    }
+
+    .info2 {
+        font-size: 15pt;
+    }
+
+    .about-opening {
+        font-size: 15pt;
+    }
+
+    .info1{
+        font-size: 15pt;
+    }
+}
+/* end of about page */
+
 
 .quote1 {
     display: flex;
@@ -304,6 +416,18 @@ cite {
     }
 }
 
+@media all and (max-width: 1000px){
+    .learning3 img {
+        width: 20rem;
+    }
+}
+
+.dev-banner img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
 .workstation1 {
     padding: 20px;
     margin: 10px;
@@ -315,6 +439,245 @@ cite {
     display: block;
     border-radius: 5px;
 }
+
+.learning3 img {
+    max-width: 30rem;
+}
+
+.creation1 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding: 5vh;
+    font-family: 'raleway', sans-serif;
+    font-size: 30pt;
+    color: #504e4e;
+    text-align: center;
+}
+
+.creation-photos {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 2rem;
+    margin: auto;
+}
+
+.creation-photos img {
+    max-width: 20rem;
+    border-radius: 5px;
+}
+
+@media all and (max-width: 1050px){
+    .creation-photos img {
+        width: 15rem;
+    }
+}
+
+
+@media all and (max-width: 820px){
+    
+    .creation-photos img {
+        width: 10rem;
+    }
+}
+
+@media all and (max-width: 570px){
+    
+    .creation-photos img {
+        width: 18rem;
+    }
+
+    .creation-photos {
+        padding-left: 25vw;
+    }
+
+    .creation1 {
+        font-size: 20pt;
+    }
+
+    .table1 tr td{
+        font-size: 12pt;
+    }
+}
+
+
+
+.table1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 2rem;
+    font-family: 'raleway', sans-serif;
+    font-size: 15pt;
+    color: #504e4e;
+    text-align: center; 
+}
+
+.table-header {
+    font-size: 30pt;
+    font-family: 'raleway', sans-serif;
+    color: #504e4e;
+    text-align: center;
+}
+
+table {
+    background-color: #e9ebf7;
+    border-color: #831212;
+    border-radius: 5px;
+}
+
+.table1 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Work Page */
+
+.my-projects {
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 8vh;
+}
+
+.my-projects h1 {
+    padding-bottom: 2vh;
+}
+
+.projects {
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 2rem;
+    padding-bottom: 10vh;
+}
+
+/* .projects > * {
+    flex: 1 100%;
+} */
+
+.rustic {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    max-width: 50%;
+}
+
+.kidd-site {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    max-width: 50%;
+}
+
+.kidd-site a {
+    text-decoration: none;
+    color: #831212;
+}
+
+.acd {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    max-width: 50%;
+}
+
+.echo {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    max-width: 50%;
+}
+
+.rustic img {
+    max-width:100%;
+    display: block;
+    align-self: center;
+    object-fit: contain;
+}
+
+.kidd-site img {
+    max-width:100%;
+    display: block;
+    align-self: center;
+    object-fit: contain;
+}
+
+.acd img {
+    max-width:100%;
+    display: block;
+    align-self: center;
+    object-fit: contain;
+}
+
+.echo img {
+    max-width:100%;
+    display: block;
+    align-self: center;
+    object-fit: contain;
+}
+
+@media all and (max-width: 1100px){
+    .projects{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rustic {
+        font-size: 15pt;
+        max-width: 100%;
+    }
+    
+    .kidd-site {
+        font-size: 15pt;
+        max-width: 100%;
+    }
+
+    .acd {
+        font-size: 15pt;
+        max-width: 100%;
+    }
+
+    .echo {
+        font-size: 15pt;
+        max-width: 100%;
+    }
+
+    .blurb{
+        order: 2;
+    }
+
+    .pic{
+        order: 1;
+    }
+}
+
+@media all and (min-width: 600px){
+    .projects{
+        flex: 1;
+    }
+    }
+
 
 /* Footer */
 
@@ -445,6 +808,98 @@ footer .foot1{
     filter: blur(0);
     transform: translateX(0);
 }
+
+.buns.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.buns.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.pies.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(100%);
+}
+
+.pies.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.table1.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(100%);
+}
+
+.table1.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.rustic.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(100%);
+}
+
+.rustic.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.kidd-site.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.kidd-site.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.acd.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(100%);
+}
+
+.acd.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.echo.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.echo.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
 
 /* Contact form */
 
