@@ -180,6 +180,7 @@ header.sticky .nav-links {
     font-family: 'raleway', sans-serif;
     border-radius: 5px;
    background-color: #e2dbc6;
+   overflow: hidden;
 }
 
 .wrapper {
@@ -194,7 +195,6 @@ header.sticky .nav-links {
 
 .wrapper > * {
     padding: 10px;
-    padding-top:;
     margin: 10px;
     flex: 1 100%;
 }
@@ -391,7 +391,7 @@ cite {
 
 .learning1 > * {
     padding: 10px;
-    padding-top:;
+    padding-top:1px;
     margin: 10px;
     flex: 1 100%;
 }
@@ -479,6 +479,7 @@ cite {
     max-width: 100%;
     padding: 2rem;
     margin: auto;
+    overflow: hidden;
 }
 
 .creation-photos img {
@@ -533,6 +534,7 @@ cite {
     font-size: 15pt;
     color: #504e4e;
     text-align: center; 
+    overflow: hidden;
 }
 
 .table-header {
@@ -562,6 +564,7 @@ table {
     letter-spacing: 2px;
     text-align: center;
     padding-top: 8vh;
+    overflow: hidden;
 }
 
 .my-projects h1 {
@@ -824,6 +827,7 @@ footer .foot1{
 
 .chadphoto1.hidden {
     opacity: 0;
+    overflow: hidden;
     filter: blur(2px);
     transition: all 1.5s;
     transform: translateX(100%);
@@ -861,14 +865,27 @@ footer .foot1{
     transform: translateX(0);
 }
 
-.table1.hidden {
+.table1 table.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.table1 table.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.table1 img.hidden {
     opacity: 0;
     filter: blur(2px);
     transition: all 1s;
     transform: translateX(100%);
 }
 
-.table1.show {
+.table1 img.show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
@@ -941,7 +958,7 @@ footer .foot1{
 
 .formdiv1 > * {
     padding: 10px;
-    padding-top:;
+    padding-top:1px;
     margin: 10px;
     letter-spacing: 2px;
     flex: 1 100%;
@@ -1026,4 +1043,8 @@ form button:hover {
     .form{
         flex: 1;
     }
+}
+
+*{
+    outline: 1px solid red;
 }
