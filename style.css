@@ -848,6 +848,58 @@ footer .foot1{
     transform: translateX(0);
 }
 
+.rustic.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(100%);
+}
+
+.rustic.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.kidd-site.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.kidd-site.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.acd.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(100%);
+}
+
+.acd.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.echo.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.echo.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
 
 /* Contact form */
 
