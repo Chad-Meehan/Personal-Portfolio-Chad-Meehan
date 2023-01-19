@@ -535,33 +535,71 @@ table {
     border-radius: 5px;
 }
 
+.my-projects {
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 8vh;
+}
+
+.my-projects h1 {
+    padding-bottom: 2vh;
+}
+
 .projects {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
     padding: 2rem;
-    background-color: #831212;
+    padding-bottom: 10vh;
 }
 
 .rustic {
     padding: 10px;
     margin: 10px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    max-width: 50%;
 }
 
 .kidd-site {
     padding: 10px;
     margin: 10px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    max-width: 50%;
+}
+
+.kidd-site a {
+    text-decoration: none;
+    color: #831212;
 }
 
 .acd {
     padding: 10px;
     margin: 10px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    max-width: 50%;
 }
 
 .echo {
     padding: 10px;
     margin: 10px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20pt; 
+    color: #504e4e; 
+    letter-spacing: 2px;
+    max-width: 50%;
 }
 
 .rustic img {
