@@ -535,6 +535,8 @@ table {
     border-radius: 5px;
 }
 
+/* Work Page */
+
 .my-projects {
     font-family: 'raleway', sans-serif;
     font-size: 20pt; 
@@ -550,12 +552,17 @@ table {
 
 .projects {
     display: flex;
+    /* flex-flow: row wrap; */
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
     padding: 2rem;
     padding-bottom: 10vh;
 }
+
+/* .projects > * {
+    flex: 1 100%;
+} */
 
 .rustic {
     padding: 10px;
@@ -629,6 +636,47 @@ table {
     align-self: center;
     object-fit: contain;
 }
+
+@media all and (max-width: 1100px){
+    .projects{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rustic {
+        font-size: 15pt;
+        max-width: 100%;
+    }
+    
+    .kidd-site {
+        font-size: 15pt;
+        max-width: 100%;
+    }
+
+    .acd {
+        font-size: 15pt;
+        max-width: 100%;
+    }
+
+    .echo {
+        font-size: 15pt;
+        max-width: 100%;
+    }
+
+    .blurb{
+        order: 2;
+    }
+
+    .pic{
+        order: 1;
+    }
+}
+
+@media all and (min-width: 600px){
+    .projects{
+        flex: 1;
+    }
+    }
 
 
 /* Footer */
