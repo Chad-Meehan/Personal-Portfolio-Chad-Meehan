@@ -355,16 +355,21 @@ header.sticky .nav-links {
 }
 
 @media all and (max-width: 500px){
+    .about-photo {
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .chadphoto2 img{
-        max-width: 12rem;
+        max-width: 18rem;
         padding: 5px;
-        border-radius: 8px;
+        border-radius: 10px;
     }
 
     .chadphoto3 img{
-        max-width: 12rem;
+        max-width: 18rem;
         padding: 5px;
-        border-radius: 8px;
+        border-radius: 10px;
     }
 }
 /* end of about page */
