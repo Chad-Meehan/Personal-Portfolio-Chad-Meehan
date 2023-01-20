@@ -31,7 +31,7 @@ header.sticky .nav-links {
 }
 
 .logo{
-    color: #a4a2a2;
+    color: #504e4e;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 6px;
@@ -74,7 +74,7 @@ header.sticky .nav-links {
 
 .nav-links a{
     background-color: #f7f5e9;
-    color: #a4a2a2;
+    color: #504e4e;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 300;
