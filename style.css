@@ -253,11 +253,9 @@ header.sticky .nav-links {
 
 .about-photo {
     display: flex;
+    flex-direction: row;
+    width: 100%;
     justify-content: center;
-    position: relative;
-    max-width: 100%;
-    padding: 0 1rem;
-    border-radius: 5px;
 }
 
 .chadphoto2 img{
@@ -353,6 +351,20 @@ header.sticky .nav-links {
 
     .info1{
         font-size: 15pt;
+    }
+}
+
+@media all and (max-width: 500px){
+    .chadphoto2 img{
+        max-width: 12rem;
+        padding: 5px;
+        border-radius: 8px;
+    }
+
+    .chadphoto3 img{
+        max-width: 12rem;
+        padding: 5px;
+        border-radius: 8px;
     }
 }
 /* end of about page */
