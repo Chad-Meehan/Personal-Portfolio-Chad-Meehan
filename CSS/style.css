@@ -31,7 +31,7 @@ header.sticky .nav-links {
 }
 
 .logo{
-    color: #504e4e;
+    color: #831212;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 6px;
@@ -42,22 +42,21 @@ header.sticky .nav-links {
 .logo a{
     color: inherit;
     font-size: 30px;
+    font-weight: 400;
     text-decoration: none;
     transition: all 0.5s;
 }
 
 .logo span{
-    font-size: 20px; 
-    font-weight: 400;
+    font-size: 60px;    
 }
 
 .logo p{
-    font-size: 30px; 
-    font-weight: 100;
+    font-size: 40px;    
 }
 
 .logo a:hover{
-    color: #831212;
+    font-weight: bold;
 }
 
 .nav-links{
@@ -84,6 +83,7 @@ header.sticky .nav-links {
 
 .nav-links a:hover{
     color: #831212;
+    font-weight: 600;
 }
 
 .nav-links li:after{
@@ -741,7 +741,7 @@ footer .foot1{
 .socials{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:space-evenly;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -816,6 +816,19 @@ footer .foot1{
 }
 
 .tagline1.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.work-pic.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1.5s;
+    transform: translateX(-100%);
+}
+
+.work-pic.show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
