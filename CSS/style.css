@@ -539,10 +539,12 @@ padding: 2rem;
         font-size: 20pt;
     }
 
-    .table1 tr td{
+    .tble1 tr td{
         font-size: 10pt;
-        padding: 0rem;
-        gap: 0em;
+    }
+
+    .table {
+        padding: 0;
     }
 }
 
