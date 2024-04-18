@@ -382,7 +382,7 @@ header.sticky .nav-links {
     text-align: center;
     padding: 10px;
     width: 100%;
-    height: 400px;
+    height: 250px;
     background-color: #e9ebf7;
     color: #831212;
     font-family: 'great Vibes', cursive;
@@ -575,6 +575,35 @@ table {
 .table1 img {
     width: 100%;
     border-radius: 5px;
+}
+
+.scoregoal {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoregoal img {
+    width: 100%;
+    border-radius: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media all and (max-width: 1050px){
+    .scoregoal img {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media all and (max-width: 750px){
+    .scoregoal img {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 }
 
 /* Work Page */
@@ -900,7 +929,7 @@ footer .foot1{
     transform: translateX(0);
 }
 
-.table1 table.hidden {
+/*.table1 table.hidden {
     opacity: 0;
     filter: blur(2px);
     transition: all 1s;
@@ -924,7 +953,7 @@ footer .foot1{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-}
+}*/
 
 .rustic.hidden {
     opacity: 0;
