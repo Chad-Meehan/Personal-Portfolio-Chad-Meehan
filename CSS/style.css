@@ -541,7 +541,8 @@ padding: 2rem;
 
     .table1 tr td{
         font-size: 10pt;
-        padding: 0;
+        padding: 0rem;
+        gap: 0em;
     }
 }
 
