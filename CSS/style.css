@@ -540,7 +540,7 @@ padding: 2rem;
     }
 
     .table1 tr td{
-        font-size: 12pt;
+        font-size: 10pt;
     }
 }
 
@@ -586,23 +586,13 @@ table {
 }
 
 .scoregoal img {
-    width: 100%;
-    border-radius: 15px;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-@media all and (max-width: 1050px){
-    .scoregoal img {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+    width: 60%;
+    border-radius: 5px;
 }
 
 @media all and (max-width: 750px){
     .scoregoal img {
-        padding-left: 2%;
-        padding-right: 2%;
+        width: 90%;
     }
 }
 
