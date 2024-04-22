@@ -581,6 +581,32 @@ table {
     border-radius: 5px;
 }
 
+.skills-outside {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-parent {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: center;
+    max-width: 1250px;
+}
+
+.skills-box {
+    display: flex;
+    justify-content: center;
+    background-color: #e9ebf7;
+    color: #831212;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #831212;
+    font-family: 'raleway', sans-serif;
+}
+
 .scoregoal {
     display: flex;
     flex-flow: wrap;
