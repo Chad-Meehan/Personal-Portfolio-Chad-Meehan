@@ -389,7 +389,27 @@ header.sticky .nav-links {
     font-size: 48px;
 }
 
+.quote1-a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 250px;
+    background-color: #e9ebf7;
+    color: #831212;
+    font-family: 'great Vibes', cursive;
+    font-size: 48px;
+}
+
 cite {
+    font-family: 'raleway';
+    color: #504e4e;
+    font-size: 20px;
+}
+
+cite-a {
     font-family: 'raleway';
     color: #504e4e;
     font-size: 20px;
@@ -545,6 +565,14 @@ padding: 2rem;
 
     .table {
         padding: 0;
+    }
+
+    .quote1-a {
+        font-size: 38px;
+    }
+    
+    cite-a {
+        font-size: 10px;
     }
 }
 
